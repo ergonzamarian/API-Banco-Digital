@@ -26,6 +26,7 @@
 
 ### Pré-requisitos
 #### 🔧 Instalação e configuração
+
 ⚠️ As ferramentas informadas aqui foram as que eu utilizei, fique a vontade para escolher a que for mais familiar a você.
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -66,29 +67,43 @@ Cole no seu navegador o link abaixo ou [Clique Aqui](http://localhost:8080/swagg
 ```bash
 # http://localhost:8080/swagger-ui/#/conta-bancaria-controller
 ```
-A tela abaixo será apresentada
-<img alt="1_swagger" src="./Img_do_Readme/1_swagger.JPG" height="425" />
+<p align="left">A tela abaixo será apresentada</p>
+
+<img alt="1_swagger" src="./imgs-readme/1_swagger.JPG" height="425" />
+
 ##### Função Busca por Id
 -*Antes de inserir o Parâmetro solicitado, sempre aperte em "Try it out" EM TODOS OS MÉTODOS*
 
+<img alt="2_swagger" src="./imgs-readme/2_swagger.JPG"/>
+
 -*Depois insira o id e clique em "Execute", O resultado será exibido abaixo em forma de JSON*
+
+<img alt="3_swagger" src="./imgs-readme/3_swagger.JPG"/>
 
 ##### Função Busca Todos
 
 -*Clique em "Execute", O resultado será exibido abaixo em forma de JSON*
 
+<img alt="4_swagger" src="./imgs-readme/4_swagger.JPG"/>
 
 ##### Função Cadastrar Conta
--*Insira o CPF e o nome do Cliente do Banco, não é possível inserir dois usuários com o mesmo CPF - Cumprindo assim a regra de não cadastrar a mesma pessoa duas vezes*
+-*Insira o CPF e o nome do Cliente do Banco, não é possível inserir dois usuários com o mesmo CPF, cumprindo assim a regra de não cadastrar a mesma pessoa duas vezes*
+
 -*Depois Clique em "Execute" e o usuário estará cadastrado se retornar status 200 OK*
+
+<img alt="5_swagger" src="./imgs-readme/5_swagger.JPG"/>
 
 ##### Função Deletar Conta
 -*Insira o Id e Clique em "Execute, após isso a conta será excluída"*
 
+<img alt="6_swagger" src="./imgs-readme/6_swagger.JPG"/>
+
 ##### Função Depositar na Conta através do Id
 -*Insira o Id da conta que deseja depositar o dinheiro e depois informe o valor e Clique em "Execute", após isso o dinheiro será depositado, é possível ver o resultaado usando a função de busca por Id*
+
 -*Só é possível realizar depósitos entre R$ 0,00 e R$ 2000,00*
 
+<img alt="7_swagger" src="./imgs-readme/7_swagger.JPG"/>
 
 ##### Função Trasferência entre duas contas informando idDestino, idOrigem e Valor da transferência
 -*Insira o Id de quem receberá o dinheiro (idDestino)*
@@ -97,8 +112,9 @@ A tela abaixo será apresentada
 
 -*Insira o Valor da Transferência*
 
--*Só é possível realizar transferências entre R$ 0,00 e R$ 2000,00 e o cliente não pode enviar valores a mais do que possui*
+*Só é possível realizar transferências entre R$ 0,00 e R$ 2000,00 e o cliente não pode enviar valores a mais do que possui*
 
+<img alt="8_swagger" src="./imgs-readme/8_swagger.JPG"/>
 
 ### Testar no Postaman
 
