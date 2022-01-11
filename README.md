@@ -103,6 +103,7 @@ Cole no seu navegador o link abaixo ou [Clique Aqui](http://localhost:8080/swagg
 
 -*Só é possível realizar depósitos entre R$ 0,00 e R$ 2000,00*
 
+<img alt="7_swagger" src="./imgs-readme/7_swagger.JPG"/>
 
 ##### Função Trasferência entre duas contas informando idDestino, idOrigem e Valor da transferência
 -*Insira o Id de quem receberá o dinheiro (idDestino)*
