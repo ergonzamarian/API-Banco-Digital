@@ -1,6 +1,8 @@
 <h1 align="center">API-Banco-DigitalP</h1>
 
 <p align="center">Nesta API encontrará as funções essenciais relacionadas ao gerenciamento de contas bancárias.</p>
+<p align="center">O teste da API pode ser feito pelo Swagger ou Postman</p>
+<p align="center">Sugestão do autor: Swagger</p>
 
 <p align="center">
  <a href="#inicio">Inicio</a> •
