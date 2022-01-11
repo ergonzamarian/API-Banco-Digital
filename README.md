@@ -67,7 +67,7 @@ Cole no seu navegador o link abaixo ou [Clique Aqui](http://localhost:8080/swagg
 # http://localhost:8080/swagger-ui/#/conta-bancaria-controller
 ```
 A tela abaixo será apresentada
-
+<img alt="1_swagger" src="./Img_do_Readme/1_swagger.JPG" height="425" />
 ##### Função Busca por Id
 -*Antes de inserir o Parâmetro solicitado, sempre aperte em "Try it out" EM TODOS OS MÉTODOS*
 
@@ -103,6 +103,7 @@ A tela abaixo será apresentada
 ### Testar no Postaman
 
 ### Tecnologias
+#### 🛠️ Ferramentas
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
