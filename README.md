@@ -64,6 +64,7 @@ $ git clone https://github.com/ergonlima/API-Banco-Digital/tree/main/desafio-res
 
 ### Testar no Swagger
 #### 📝 Siga todos os Passos para realizar os testes
+-*Todas as Mensagens de Exceção são exibidas no log da IDE*
 
 Cole no seu navegador o link abaixo ou [Clique Aqui](http://localhost:8080/swagger-ui/#/conta-bancaria-controller)
 ```bash
@@ -96,12 +97,12 @@ Cole no seu navegador o link abaixo ou [Clique Aqui](http://localhost:8080/swagg
 <img alt="5_swagger" src="./imgs-readme/5_swagger.JPG"/>
 
 ##### Função Deletar Conta
--*Insira o Id e Clique em "Execute, após isso a conta será excluída"*
+-*Insira o Id e Clique em "Execute", após isso a conta será excluída"*
 
 <img alt="6_swagger" src="./imgs-readme/6_swagger.JPG"/>
 
 ##### Função Depositar na Conta através do Id
--*Insira o Id da conta que deseja depositar o dinheiro e depois informe o valor e Clique em "Execute", após isso o dinheiro será depositado, é possível ver o resultaado usando a função de busca por Id*
+-*Insira o Id da conta que deseja depositar o dinheiro e depois informe o valor e Clique em "Execute", após isso o dinheiro será depositado, é possível ver o resultado usando a função de busca por Id*
 
 -*Só é possível realizar depósitos entre R$ 0,00 e R$ 2000,00*
 
@@ -119,6 +120,59 @@ Cole no seu navegador o link abaixo ou [Clique Aqui](http://localhost:8080/swagg
 <img alt="8_swagger" src="./imgs-readme/8_swagger.JPG"/>
 
 ### Testar no Postman
+#### 📝 Siga todos os Passos para realizar os testes
+-*Todas as Mensagens de Exceção são exibidas no log da IDE*
+
+```bash
+# Clone este repositório da collection do Postman
+$ https://github.com/ergonlima/API-Banco-Digital/tree/main/collection-postman
+```
+Após isso, importe o arquivo .json para o Postman
+<p align="left">A collection ficará assim </p>
+
+<img alt="9_postman" src="./imgs-readme/9_postman.JPG" height="425" />
+
+##### Função Cadastrar Conta
+-*Insira o CPF e o nome do Cliente do Banco, não é possível inserir dois usuários com o mesmo CPF, cumprindo assim a regra de não cadastrar a mesma pessoa duas vezes*
+
+-*Depois Clique em "Send" e o usuário estará cadastrado se retornar status 200 OK*
+
+<img alt="10_postman" src="./imgs-readme/10_postman.JPG" height="425" />
+
+##### Função Busca por Id
+
+-*Insira o id na url e clique em "Send", O resultado será exibido abaixo em forma de JSON*
+
+<img alt="11_postman" src="./imgs-readme/11_postman.JPG" height="425" />
+
+##### Função Depositar na Conta através do Id
+-*Insira o Id da conta que deseja depositar o dinheiro e depois informe o valor e Clique em "Send", após isso o dinheiro será depositado, é possível ver o resultado usando a função de busca por Id*
+
+-*Só é possível realizar depósitos entre R$ 0,00 e R$ 2000,00*
+
+<img alt="12_postman" src="./imgs-readme/12_postman.JPG" height="425" />
+
+##### Função Trasferência entre duas contas informando idDestino, idOrigem e Valor da transferência
+-*Insira o Id de quem receberá o dinheiro (idDestino)*
+
+-*Insira o Id de quem Enviará o dinheiro (idOrigem)*
+
+-*Insira o Valor da Transferência*
+
+*Só é possível realizar transferências entre R$ 0,00 e R$ 2000,00 e o cliente não pode enviar valores a mais do que possui*
+
+<img alt="13_postman" src="./imgs-readme/13_postman.JPG" height="425" />
+
+##### Função Deletar Conta
+-*Insira o Id e Clique em "Send", após isso a conta será excluída"*
+
+<img alt="14_postman" src="./imgs-readme/14_postman.JPG" height="425" />
+
+##### Função Busca Todos
+
+-*Clique em "Send", O resultado será exibido abaixo em forma de JSON*
+
+<img alt="15_postman" src="./imgs-readme/15_postman.JPG" height="425" />
 
 ### Tecnologias
 #### 🛠️ Ferramentas
