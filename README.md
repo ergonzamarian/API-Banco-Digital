@@ -1,4 +1,4 @@
-<h1 align="center">API-Banco-DigitalP</h1>
+<h1 align="center">API-Banco-Digital</h1>
 
 <p align="center">Nesta API encontrará as funções essenciais relacionadas ao gerenciamento de contas bancárias.</p>
 <p align="center">O teste da API pode ser feito pelo Swagger ou Postman</p>
@@ -7,7 +7,7 @@
 <p align="center">
  <a href="#inicio">Inicio</a> •
  <a href="#pré-requisitos">Pré Requisitos (Instalação)</a> •
- <a href="#como-executar-o-projeto">Como Executar o protejo</a> •
+ <a href="#como-executar-o-projeto">Como Executar o projeto</a> •
  <a href="#testar-no-swagger">Testar no Swagger</a> •
  <a href="#testar-no-postman">Testar no Postman</a> •
  <a href="#tecnologias">Tecnologias</a> •
@@ -50,7 +50,7 @@ Você também precisará fazer a seguinte configuração (siga o caminho abaixo)
 
 - [x] Para validar a instalação do JDK abra o cmd e digite "java -version" e aparecerá a versão do java instalado.
 
-### Como Executar o protejo
+### Como Executar o projeto
 #### ⚙️ Executando e Instalando as Dependências
 
 ```bash
@@ -118,7 +118,7 @@ Cole no seu navegador o link abaixo ou [Clique Aqui](http://localhost:8080/swagg
 
 <img alt="8_swagger" src="./imgs-readme/8_swagger.JPG"/>
 
-### Testar no Postaman
+### Testar no Postman
 
 ### Tecnologias
 #### 🛠️ Ferramentas
