@@ -1,11 +1,9 @@
 package bancodigital.desafio.rest.api.repository;
 
 import bancodigital.desafio.rest.api.model.ContaBancariaModel;
-import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.query.Param;
 
 import javax.transaction.Transactional;
 import java.util.List;
