@@ -1,6 +1,0 @@
-bancodigital\desafio\rest\api\config\SwaggerConfig.class
-bancodigital\desafio\rest\api\BancoDigitalApiApplication.class
-bancodigital\desafio\rest\api\model\PessoaModel.class
-bancodigital\desafio\rest\api\controller\PessoaController.class
-bancodigital\desafio\rest\api\repository\PessoaRepository.class
-bancodigital\desafio\rest\api\controller\StatusController.class
