@@ -46,8 +46,9 @@ Você também precisará fazer a seguinte configuração (siga o caminho abaixo)
 - Em "Variáveis de Ambiente>Variáveis do Sistema" clique em "novo" e insira o nome da variável como sendo "JAVA_HOME" e insira o caminho do [JDK 17.0.1](https://jdk.java.net/17/) que você copiou e clique em "OK";
 - Ainda em "Variáveis de Ambiente>Variáveis do Sistema" clique em "novo" e insira o nome da variável como sendo "CLASSPATH" e no valor coloque um ponto "." e depois clique em "OK";
 - Em "Variáveis do Sistema" localize o "Path" e dê um duplo clique sobre ele, e adicione "%JAVA_HOME%\bin" e mova-o para cima e depois clique em "OK" e novamente em "OK";
-
+- 
 - [x] Para validar a instalação do JDK abra o cmd e digite "java -version" e aparecerá a versão do java instalado.
+
 
 ### Como Executar o projeto
 #### ⚙️ Executando e Instalando as Dependências
